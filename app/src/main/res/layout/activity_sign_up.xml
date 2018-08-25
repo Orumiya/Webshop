@@ -86,7 +86,7 @@
         android:inputType="date" />
 
     <Button
-        android:id="@+id/main_sign_in_button"
+        android:id="@+id/sign_up_button"
         android:background="@android:color/holo_green_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

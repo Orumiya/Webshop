@@ -52,7 +52,7 @@
         android:layout_column="1"/>
 
     <Button
-        android:id="@+id/main_sign_in_button"
+        android:id="@+id/sign_in_button"
         android:background="@android:color/holo_blue_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
