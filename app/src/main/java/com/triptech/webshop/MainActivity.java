@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Button sign_up_button = findViewById(R.id.main_sign_up_button);
         final Intent sign_in_intent = new Intent(this, LogInActivity.class);
 
-        sign_up_button.setOnClickListener(new View.OnClickListener() {
+        sign_in_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(sign_in_intent);
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         final Intent sign_up_intent = new Intent(this, SignUpActivity.class);
-        sign_in_button.setOnClickListener(new View.OnClickListener() {
+        sign_up_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(sign_up_intent);
